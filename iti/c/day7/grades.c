@@ -36,7 +36,7 @@
 	for (i = 0; i < rows; i++)
 	{
 		printf("\nStudent[%d]:\n", i + 1);
-//		sum[i] = 0;
+		sum[i] = 0;
 		for (j = 0; j < cols; j++)
 		{
 			printf("Course[%d]: ", j + 1);
