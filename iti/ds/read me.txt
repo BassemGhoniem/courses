@@ -1,0 +1,14 @@
+This is an implementation for a binary search tree of integers
+
+the implementation consists of three files
+- TREE.H
+- TREE.C
+- TREETEST.c for testing the implementation
+
+this test implementation was done using BC 92
+if you wish to run this test program please put all the three files 
+in the BIN folder inside BORLANDC folder
+
+
+
+Bassem Essam
