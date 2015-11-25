@@ -5,17 +5,17 @@
  */
 
  #include <stdio.h>
- #include <conio.h>
+// #include <conio.h>
 
  void main() {
 	char key;
-	clrscr();
+	//clrscr();
 	do {
 		printf("Please press key (Esc to exit): ");
-		key = getche();
+		key = getchar();
 		if (key)
 			printf("\n\nYou typed normal key\nits code is %d\n\n", key);
 		else
-			printf("\n\nYou typed extented key \nits code is: %d\n\n", getch());
+			printf("\n\nYou typed extented key \nits code is: %d\n\n", getchar());
 	} while (key != 27);
  }
