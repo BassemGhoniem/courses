@@ -6,22 +6,27 @@
  */
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 struct Complex {
   private:
     float real, imaj;
   public:
-    float getReal() { return real; }
-    float getImaj() { return imaj; }
-    void setReal(float r) { real = r; }
-    void setImaj(float i) { imaj = i; }
-    void print()
-    {
-      if (imaj < 0)
-        cout << real << " - " << -imaj << "i" << endl;
-      else
-        cout << real << " + " << imaj << "i" << endl;
+    float getReal() {
+      return real;
+    }
+    float getImaj() {
+      return imaj;
+    }
+    void setReal(float r) {
+      real = r;
+    }
+    void setImaj(float i) {
+      imaj = i;
+    }
+    void print() {
+        cout << real << (imaj < 0 ? " - " : " + ") << abs(imaj) << "i" << endl;
     }
 };
 
