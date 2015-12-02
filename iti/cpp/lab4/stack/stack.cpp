@@ -97,7 +97,7 @@ Stack Stack::operator+=(int ext) {
 }
 Stack Stack::operator+(Stack s) {
     Stack tmp(size + s.size);
-    tmp.tos = tos + s.tos - 1;
+    tmp.tos = tos + s.tos ;
     int i;
     for (i = 0; i < tos; i++)
         tmp.stk[i] = stk[i];
