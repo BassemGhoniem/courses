@@ -1,0 +1,25 @@
+body {
+    background : black;
+    color : white;
+}
+
+a {
+    color : gray;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 25pt;
+}
+
+a:hover {
+    color : black;
+    background : white;
+}
+
+
+.akm:hover{
+    color : yellow;
+    background : green;
+}
